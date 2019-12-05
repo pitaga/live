@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh">
+    <head>
+        <meta charset="UTF-8">
+        <title>抽奖程序</title>
+        <style>
+            body{
+                background: aquamarine;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            form{
+                text-align:center;
+            }
+        </style>
+    </head>
+    <body>
+        <form action="/homepage" method="post" enctype="multipart/form-data">
+            <label>一等奖人数</label><br>
+            <input type="number" name="award">
+            <br>
+            <label>二等奖人数</label><br>
+            <input type="number" name="award">
+            <br>
+            <label>三等奖人数</label><br>
+            <input type="number" name="award">
+            <br>
+            <label>上传参与人员名单</label><br>
+            <input type="file" name="name_list">
+            <br>
+            <input type="submit" value="开始抽奖">
+        </form>
+    </body>
+</html>

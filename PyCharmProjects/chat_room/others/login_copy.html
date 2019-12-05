@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>登陆</title>
+        <link rel="stylesheet" href="../css/style.css" />
+        <script type="text/javascript" charset="UTF-8" src="../js/jquery.min.js"></script>
+    </head>
+    <body>
+        <div class="login_panel">
+            <form>
+                <label class="login_label" for="username">用户名</label>
+                <input class="login_input" type="text" id="username">
+                <br>
+                <label class="login_label" for="password">密码</label>
+                <input class="login_input" type="password" id="password">
+                <br>
+                <button class="login_submit" onclick="sendMessage()">登陆</button>
+            </form>
+        </div>
+        <script>
+            <!--建立websocket连接-->
+            var ws = new WebSocket("ws://10.70.30.48:8000/login");
+            <!--发送消息到服务器-->
+            function sendMessage() {
+                var message = new Array(2);
+                message[0] = $('#username').val();
+                message[1] = $('#password').val();
+                ws.send(message);
+            }
+            <!--从服务器接收消息-->
+            ws.onmessage = function (event) {
+                $.ajax({
+                    type:"POST",
+                    url:"/login",
+                    async:false,
+                    success: function(data){
+                        self.alert("-1 success");
+                        if (data == 200){
+                            self.alert("200 success");
+                            window.location.href="/home";
+                        }else if (data == 404){
+                            self.alert("404 success");
+                            window.location.href="/signup";
+                        }else if (data == 500){
+                            self.alert("密码不正确");
+                        }else{
+                            self.alert("服务器未知错误");
+                        }
+                    },
+                    error: function (e) {
+                        alert("传递失败");
+                        alert(XMLHttpRequest.readyState);
+                    }
+                });
+            }
+        </script>
+    </body>
+</html>

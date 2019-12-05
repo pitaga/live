@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>主页</title>
+        <link rel="stylesheet" href="{{static_url('css/home.css')}}">
+        <script type="text/javascript" charset="utf-8" src="static_url('js/jquery.js)"></script>
+        <!--或者以下方式-->
+        <!--
+        <link rel="stylesheet" href="static/css/home.html">
+        -->
+    </head>
+    <body>
+        <h1>这里是主页</h1>
+        <h1>num: {{ num }}</h1>
+        <h1>num+10: {{num+10}}</h1>
+        <h1>name: {{person["name"]}}</h1>
+        <h1>age: {{person["age"]}}</h1>
+
+        <ul>
+            {% for item in students %}
+            <li>{{ item["name"] }}    {{ item["age"] }}</li>
+            {% end %}
+        </ul>
+    </body>
+</html>

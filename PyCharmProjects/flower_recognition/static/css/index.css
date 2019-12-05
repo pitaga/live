@@ -1,0 +1,80 @@
+/*title 标签*/
+.title {
+    height: 100px;
+    width: 100%;
+    background: black;
+}
+.title_label {
+    color: whitesmoke;
+    font-size: 60px;
+    left: 5%;
+    height: 100%;
+    position: relative;
+}
+
+
+/*按钮摄像机画布的上层容器*/
+.content {
+    width: 100%;
+    height: 1330px;
+    position: relative;
+    background: whitesmoke;
+}
+
+
+
+/*input 容器*/
+.camera {
+    text-align: center;
+    width: 100%;
+    height: 11%;
+    border: lightskyblue solid 2px;
+    background-image: url(../img/001.png);
+    background-size: 100% 100%;
+    position: relative;
+}
+/*input 标签*/
+.picture {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    border: lightskyblue solid 2px;
+}
+
+
+
+/*canvas 容器*/
+.canvas {
+    position: relative;
+    width: 100%;
+    height: 75%;
+    border: lightskyblue solid 2px;
+}
+/*canvas 标签*/
+.myCanvas {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+/*button 按钮*/
+.button {
+    position: relative;
+    width: 100%;
+    height: 11%;
+    background-image: url(../img/002.png);
+    background-size: 100% 100%;
+    text-align: center;
+    overflow: hidden;
+    border: lightskyblue solid 2px;
+}
+.myButton {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    font-size: 70px;
+    opacity: 0;
+}

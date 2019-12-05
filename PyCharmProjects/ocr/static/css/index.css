@@ -1,0 +1,60 @@
+/*设置页面顶层容器格式*/
+.top_div {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    position: relative;
+}
+
+
+/*设置画布风格*/
+.canvas_top {
+    top: 5%;
+    text-align: center;
+    position: relative;
+}
+.canvas_image {
+    border: black 5px double;
+    position: relative;
+}
+
+
+/*设置按钮格式*/
+.buttons {
+    text-align: center;
+    position: relative;
+}
+.btn {
+    padding: .3em .5em;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: .3em;
+    box-shadow: 0 1px white inset;
+    text-align: center;
+    text-shadow: 0 1px 1px black;
+    color:black;
+    font-weight: bold;
+    position: relative;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+
+/*设置显示结果格式*/
+.result {
+    text-align: center;
+    position: relative;
+}
+.result_content {
+    left: 20%;
+    width: 60%;
+    height: 250px;
+    border: black 5px double;
+    text-align: center;
+    position: relative;
+}
+.result_label {
+    font-size: 220px;
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 0;
+}

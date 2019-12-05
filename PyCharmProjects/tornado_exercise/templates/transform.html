@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>转义字符</title>
+    </head>
+    <body>
+        <!--初始字符-->
+        {{ str }}
+        <!--关闭转义，只能关闭一行-->
+        {% raw str %}
+        <!--关闭当前文档的自动转义-->
+        {% autoescape None %}
+        <!--开启自动转义-->
+        {{ escape(str) }}
+    </body>
+</html>

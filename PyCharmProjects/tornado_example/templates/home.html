@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>多人聊天</title>
+        <script type="text/javascript" charset="UTF-8" src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <div id="contents" style="width:800px;height:600px;overflow:auto"></div>
+        <div>
+            <input type="text" id="message">
+            <button onclick="sendMessage()">发送</button>
+        </div>
+        <script>
+            <!--建立WebSocket连接-->
+            var ws = new WebSocket("ws://10.70.48.187:8000/chat");
+            <!--接收服务器传递的消息-->
+            ws.onmessage = function (mess) {
+                $('#contents').append("<p>" + mess.data + "</p>")
+            };
+            <!--向服务端发送消息-->
+            function sendMessage(){
+                var message = $('#message').val()
+                ws.send(message)
+                $('#message').val("")
+            }
+        </script>
+    </body>
+</html>

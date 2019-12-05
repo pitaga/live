@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>注册</title>
+        <link rel="stylesheet" type="text/css" href="../static/css/style.css" />
+        <script type="text/javascript" charset="UTF-8" src="../static/js/jquery.min.js"></script>
+    </head>
+    <body>
+        <div class="sign_panel">
+            <form>
+                <label class="sign_label">用户名</label>
+                <input class="sign_input" type="text" id="username">
+                <br>
+                <label class="sign_label">密码</label>
+                <input class="sign_input" type="password" id="password">
+                <br>
+                <label class="sign_label">确认密码</label>
+                <input class="sign_input" type="password" id="confirm_password">
+                <br>
+                <button class="sign_submit" onclick="sendMessage()" id="sign_up">注册</button>
+            </form>
+        </div>
+        <script>
+            function sendMessage() {
+                var username = $('#username').val();
+                var password = $('#password').val();
+                var confirm_passwoerd = $('#confirm_password').val();
+                if (password == confirm_passwoerd){
+                    var mess = "username=" + username +"&password=" + password;
+                    $.post("/signup", {message:mess}, function(data){
+                        if (data == "success"){
+                            self.alert("注册成功");
+                            window.location("/home");
+                        }else{
+                            self.alert(data);
+                        }
+                    });
+                }
+                else {
+                    self.alert("两次输入密码不一致。");
+                }
+            }
+        </script>
+    </body>
+</html>

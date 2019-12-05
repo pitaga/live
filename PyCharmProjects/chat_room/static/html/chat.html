@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>聊天室</title>
+        <link rel="stylesheet" href="../css/chat_style.css">
+        <script type="text/javascript" charset="UTF-8" src="../js/jquery.min.js"></script>
+        <script type="text/javascript" charset="UTF-8" src="../js/chat_room.js"></script>
+    </head>
+    <body>
+        <div class="chat_page">
+            <div class="chat_room_panel">
+                <label class="chat_label">聊天室</label>
+                <div class="chat_room" id="chat_room">
+                    <button class="create_room" onclick="create_room()">创建一个新的聊天室</button>
+                    <button class="room_default" onclick="enter_default()">默认聊天室</button>
+                </div>
+            </div>
+            <div class="chat_log_panel">
+                <label class="chat_log_label" id="chat_log_label">聊天记录</label>
+                <div class="chat_log" id="chat_log">
+
+                </div>
+                <div class="send_chat_log">
+                    <input class="chat_content" id="chat_content" type="text">
+                    <button class="send_button" id="send_button" onclick="sendMessage()">发送</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

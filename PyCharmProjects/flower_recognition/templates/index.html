@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>welcome to flower recognition</title>
+    <script type="text/javascript" src="../static/js/jquery.min.js"></script>
+    <link rel="stylesheet" href="../static/css/index.css" />
+</head>
+
+<body>
+    <div class="title">
+        <label class="title_label">花朵识别</label>
+    </div>
+    <div class="content">
+        <div class="camera">
+            <input id="picture" class="picture" type="file" accept="image/*" capture="camera">
+        </div>
+        <div class="canvas">
+            <canvas id="myCanvas" class="myCanvas"></canvas>
+        </div>
+        <div class="button">
+            <input class="myButton" type="button" onclick="sendMessage()">
+        </div>
+    </div>
+</body>
+
+<script type="text/javascript" src="../static/js/index.js"></script>
+</html>

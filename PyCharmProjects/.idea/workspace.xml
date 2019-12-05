@@ -1,0 +1,789 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ac2471d2-4065-442d-89aa-eae022f85dba" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/PycharmProjects$sql_test.coverage" NAME="sql_test Coverage Results" MODIFIED="1553683007198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chat_room" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$server.coverage" NAME="server Coverage Results" MODIFIED="1553747123945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chat_room" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="chat_room: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="chat_room: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="user: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="PycharmProjects" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/flower_recognition/server.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <element signature="e#62#83#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/flower_recognition/application.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+              <folding>
+                <element signature="e#64#82#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>photo-lau-dai</find>
+      <find>hinh-anh-dau</find>
+      <find>User</find>
+      <find>User.user</find>
+      <find>name</find>
+      <find>op</find>
+      <find>interence</find>
+      <find>y_train</find>
+      <find>train_labels</find>
+      <find>canvas</find>
+      <find>bottleneck_input</find>
+      <find>BOTTLENECK</find>
+      <find>pbtxt</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/tensorflow_exercise/test_03.py" />
+        <option value="$PROJECT_DIR$/tensorflow_exercise/test_04.py" />
+        <option value="$PROJECT_DIR$/tensorflow_exercise/test_05.py" />
+        <option value="$PROJECT_DIR$/tensorflow_exercise/test_06.py" />
+        <option value="$PROJECT_DIR$/chat_room/templates/chat.html" />
+        <option value="$PROJECT_DIR$/ocr/server.py" />
+        <option value="$PROJECT_DIR$/tensorflow_exercise/test_07.py" />
+        <option value="$PROJECT_DIR$/tensorflow_exercise/log" />
+        <option value="$PROJECT_DIR$/tensorflow_exercise/mnist_test.py" />
+        <option value="$PROJECT_DIR$/tensorflow_exercise/mnist_train.py" />
+        <option value="$PROJECT_DIR$/tensorflow_exercise/csv_try.py" />
+        <option value="$PROJECT_DIR$/tensorflow_exercise/train.py" />
+        <option value="$PROJECT_DIR$/tensorflow_exercise/test.py" />
+        <option value="$PROJECT_DIR$/ocr/predict.py" />
+        <option value="$PROJECT_DIR$/tensorflow_exercise/img_try.py" />
+        <option value="$PROJECT_DIR$/ocr/views/index.py" />
+        <option value="$PROJECT_DIR$/ocr/templates/index.html" />
+        <option value="$PROJECT_DIR$/ocr/img_try.py" />
+        <option value="$PROJECT_DIR$/ocr/image.py" />
+        <option value="$PROJECT_DIR$/ocr/test.py" />
+        <option value="$PROJECT_DIR$/test/img_try.py" />
+        <option value="$PROJECT_DIR$/lenet_5/train.py" />
+        <option value="$PROJECT_DIR$/pdf2word/main.py" />
+        <option value="$PROJECT_DIR$/ocr/static/js/index.js" />
+        <option value="$PROJECT_DIR$/ori/test.py" />
+        <option value="$PROJECT_DIR$/reptilian/times/main.py" />
+        <option value="$PROJECT_DIR$/roi/remove.py" />
+        <option value="$PROJECT_DIR$/roi/other.py" />
+        <option value="$PROJECT_DIR$/roi/test.py" />
+        <option value="$PROJECT_DIR$/inception_v3/main.py" />
+        <option value="$PROJECT_DIR$/roi/main.py" />
+        <option value="$PROJECT_DIR$/flower_recognition/config.py" />
+        <option value="$PROJECT_DIR$/flower_recognition/server.py" />
+        <option value="$PROJECT_DIR$/flower_recognition/templates/index.html" />
+        <option value="$PROJECT_DIR$/flower_recognition/static/css/index.css" />
+        <option value="$PROJECT_DIR$/flower_recognition/application.py" />
+        <option value="$PROJECT_DIR$/flower_recognition/data_process.py" />
+        <option value="$PROJECT_DIR$/inception_v3/data_process.py" />
+        <option value="$PROJECT_DIR$/inception_v3/train1.py" />
+        <option value="$PROJECT_DIR$/inception_v3/test1.py" />
+        <option value="$PROJECT_DIR$/inception_v3/train_my.py" />
+        <option value="$PROJECT_DIR$/inception_v3/train.py" />
+        <option value="$PROJECT_DIR$/inception_v3/test.py" />
+        <option value="$PROJECT_DIR$/flower_recognition/test.py" />
+        <option value="$PROJECT_DIR$/roi/data_process.py" />
+        <option value="$PROJECT_DIR$/roi/resize.py" />
+        <option value="$PROJECT_DIR$/flower_recognition/views/index.py" />
+        <option value="$PROJECT_DIR$/flower_recognition/image.py" />
+        <option value="$PROJECT_DIR$/flower_recognition/static/js/index.js" />
+        <option value="$PROJECT_DIR$/serl/comsumer_gui.py" />
+        <option value="$PROJECT_DIR$/serl_gui/main.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="490" />
+    <option name="y" value="85" />
+    <option name="width" value="1245" />
+    <option name="height" value="850" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="PyCharmProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PyCharmProjects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PyCharmProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PyCharmProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="flower_recognition" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Course" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/yang/tutorial/taobao/items.py&#10;ROBOTS&#9;null&#9;null" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/serl_gui" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\yang\PyCharmProjects\serl_gui" />
+      <recent name="C:\yang\PyCharmProjects\inception_v3\inceptionV3\predict_images" />
+      <recent name="C:\yang\PyCharmProjects\inception_v3" />
+      <recent name="C:\yang\PyCharmProjects\inception_v3\test" />
+      <recent name="C:\yang\PyCharmProjects\flower_recognition\static\image" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\yang\PyCharmProjects\serl_gui" />
+      <recent name="C:\yang\PyCharmProjects\roi" />
+      <recent name="C:\yang\PyCharmProjects\flower_recognition\model" />
+      <recent name="C:\yang\PyCharmProjects\flower_recognition" />
+      <recent name="C:\yang\PyCharmProjects\inception_v3\inceptionV3\predict_images" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="PyCharmProjects" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ac2471d2-4065-442d-89aa-eae022f85dba" name="Default" comment="" />
+      <created>1527388338343</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1527388338343</updated>
+      <workItem from="1553658922623" duration="5587000" />
+      <workItem from="1553679827054" duration="7222000" />
+      <workItem from="1553690811189" duration="5003000" />
+      <workItem from="1553705335479" duration="217000" />
+      <workItem from="1553706598547" duration="83000" />
+      <workItem from="1553707159992" duration="135000" />
+      <workItem from="1553720170853" duration="5291000" />
+      <workItem from="1553740379626" duration="5823000" />
+      <workItem from="1553755655078" duration="1949000" />
+      <workItem from="1553757796569" duration="16009000" />
+      <workItem from="1553779537707" duration="8000" />
+      <workItem from="1553779919919" duration="24000" />
+      <workItem from="1553780087563" duration="1946000" />
+      <workItem from="1553833567416" duration="629000" />
+      <workItem from="1553839599053" duration="5510000" />
+      <workItem from="1553845922709" duration="67000" />
+      <workItem from="1553846027905" duration="6000" />
+      <workItem from="1553846048179" duration="413000" />
+      <workItem from="1553846477556" duration="4762000" />
+      <workItem from="1553853593164" duration="3822000" />
+      <workItem from="1553865510161" duration="449000" />
+      <workItem from="1553865975725" duration="116000" />
+      <workItem from="1553866135105" duration="399000" />
+      <workItem from="1553866643200" duration="32000" />
+      <workItem from="1553921864177" duration="300000" />
+      <workItem from="1553923329732" duration="27277000" />
+      <workItem from="1553995760681" duration="265000" />
+      <workItem from="1554003758004" duration="20934000" />
+      <workItem from="1554037566088" duration="6712000" />
+      <workItem from="1554050288086" duration="91000" />
+      <workItem from="1554050532415" duration="2556000" />
+      <workItem from="1554274682474" duration="217000" />
+      <workItem from="1554304483047" duration="307000" />
+      <workItem from="1554304874633" duration="4172000" />
+      <workItem from="1554313102512" duration="577000" />
+      <workItem from="1554313702830" duration="8598000" />
+      <workItem from="1554383387338" duration="3289000" />
+      <workItem from="1554388551601" duration="1045000" />
+      <workItem from="1554389658793" duration="1010000" />
+      <workItem from="1554390988673" duration="1519000" />
+      <workItem from="1554392583849" duration="2783000" />
+      <workItem from="1554397152153" duration="208000" />
+      <workItem from="1554399376578" duration="1339000" />
+      <workItem from="1554444329348" duration="10057000" />
+      <workItem from="1554463762941" duration="2237000" />
+      <workItem from="1554476540181" duration="2703000" />
+      <workItem from="1554534309136" duration="12000" />
+      <workItem from="1554540278211" duration="2951000" />
+      <workItem from="1554550291073" duration="534000" />
+      <workItem from="1554558844904" duration="289000" />
+      <workItem from="1554559211932" duration="613000" />
+      <workItem from="1554692684167" duration="221000" />
+      <workItem from="1554698112869" duration="98000" />
+      <workItem from="1554698353370" duration="342000" />
+      <workItem from="1554812566021" duration="54000" />
+      <workItem from="1554812647608" duration="5675000" />
+      <workItem from="1554828259683" duration="4040000" />
+      <workItem from="1554834319997" duration="2861000" />
+      <workItem from="1554837204825" duration="20000" />
+      <workItem from="1554855002943" duration="5277000" />
+      <workItem from="1554882608141" duration="2256000" />
+      <workItem from="1554887528948" duration="543000" />
+      <workItem from="1554888998799" duration="1513000" />
+      <workItem from="1554894889682" duration="3866000" />
+      <workItem from="1554904856231" duration="1128000" />
+      <workItem from="1554949987760" duration="6100000" />
+      <workItem from="1554956209561" duration="3958000" />
+      <workItem from="1554961041893" duration="8465000" />
+      <workItem from="1554978828705" duration="20014000" />
+      <workItem from="1555001855307" duration="71000" />
+      <workItem from="1555002046158" duration="122000" />
+      <workItem from="1555002195551" duration="716000" />
+      <workItem from="1555038254072" duration="299000" />
+      <workItem from="1555043413865" duration="11000" />
+      <workItem from="1555050495141" duration="12078000" />
+      <workItem from="1555073990807" duration="5782000" />
+      <workItem from="1555082780594" duration="497000" />
+      <workItem from="1555083604320" duration="34000" />
+      <workItem from="1555083680736" duration="186000" />
+      <workItem from="1555141904141" duration="2000" />
+      <workItem from="1555149944176" duration="371000" />
+      <workItem from="1555150357344" duration="39000" />
+      <workItem from="1556621029833" duration="2024000" />
+      <workItem from="1557157374667" duration="58000" />
+      <workItem from="1557274565232" duration="389000" />
+      <workItem from="1557275024553" duration="1471000" />
+      <workItem from="1557841190964" duration="17000" />
+      <workItem from="1557844677896" duration="69000" />
+      <workItem from="1557989748888" duration="44000" />
+      <workItem from="1558485629067" duration="2585000" />
+      <workItem from="1558667060425" duration="57000" />
+      <workItem from="1558691124118" duration="2630000" />
+      <workItem from="1558926940199" duration="79000" />
+      <workItem from="1559089583191" duration="5405000" />
+      <workItem from="1559095180666" duration="1079000" />
+      <workItem from="1559096424228" duration="972000" />
+      <workItem from="1559099768308" duration="2156000" />
+      <workItem from="1559107904633" duration="309000" />
+      <workItem from="1559621740228" duration="14937000" />
+      <workItem from="1559656571587" duration="8861000" />
+      <workItem from="1559692763391" duration="3962000" />
+      <workItem from="1560059870139" duration="53000" />
+      <workItem from="1560059959027" duration="212000" />
+      <workItem from="1560060262805" duration="179000" />
+      <workItem from="1560060537289" duration="537000" />
+      <workItem from="1560061611289" duration="580000" />
+      <workItem from="1560062318257" duration="17560000" />
+      <workItem from="1560081897550" duration="18000" />
+      <workItem from="1560081935428" duration="5516000" />
+      <workItem from="1560088261231" duration="4442000" />
+      <workItem from="1560094856290" duration="5318000" />
+      <workItem from="1560182033219" duration="198000" />
+      <workItem from="1560182283929" duration="758000" />
+      <workItem from="1560217857765" duration="11233000" />
+      <workItem from="1560236642066" duration="1017000" />
+      <workItem from="1560242848962" duration="543000" />
+      <workItem from="1560298817520" duration="306000" />
+      <workItem from="1560299280175" duration="409000" />
+      <workItem from="1560487386014" duration="63000" />
+      <workItem from="1560768556073" duration="688000" />
+      <workItem from="1560774726030" duration="2284000" />
+      <workItem from="1560953708619" duration="27000" />
+      <workItem from="1561129852201" duration="122000" />
+      <workItem from="1561780608998" duration="126000" />
+      <workItem from="1566434524753" duration="65000" />
+      <workItem from="1568891476908" duration="11609000" />
+      <workItem from="1574499865619" duration="165000" />
+      <workItem from="1575546298348" duration="121000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="365989000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49787837" visible="true" weight="0.21158855" />
+      <window_info id="Structure" order="1" sideWeight="0.5021216" side_tool="true" weight="0.19022457" />
+      <window_info id="Favorites" order="2" sideWeight="0.5021216" side_tool="true" weight="0.23592493" />
+      <window_info id="DB Browser" order="3" weight="0.3294271" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32921812" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49544272" weight="0.34979424" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39917696" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3281471" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49804688" weight="0.2743484" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5045573" side_tool="true" weight="0.33607683" />
+      <window_info anchor="bottom" id="DB Execution Console" order="10" />
+      <window_info anchor="bottom" id="Database Console" order="11" sideWeight="0.49934897" weight="0.3621399" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Educational.CheckDetails" order="14" />
+      <window_info anchor="bottom" x="0" y="268" width="1536" height="288" id="Python Console" order="15" weight="0.3621399" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.3294271" />
+      <window_info anchor="right" x="1069" y="82" width="285" height="729" id="Database" order="4" weight="0.15013404" />
+      <window_info anchor="right" x="0" y="0" width="337" height="638" id="Documentation" order="5" side_tool="true" weight="0.3294271" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49787837" visible="true" weight="0.19726562" />
+      <window_info id="Structure" order="1" sideWeight="0.5021216" side_tool="true" weight="0.19022457" />
+      <window_info id="Favorites" order="2" sideWeight="0.5021216" side_tool="true" weight="0.23592493" />
+      <window_info id="DB Browser" order="3" weight="0.3294271" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32921812" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49544272" weight="0.34979424" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39917696" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3281471" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49804688" weight="0.28395063" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5045573" side_tool="true" weight="0.33607683" />
+      <window_info anchor="bottom" id="DB Execution Console" order="10" />
+      <window_info anchor="bottom" id="Database Console" order="11" sideWeight="0.49934897" weight="0.3621399" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Educational.CheckDetails" order="14" />
+      <window_info anchor="bottom" x="0" y="268" width="1536" height="288" id="Python Console" order="15" weight="0.41563785" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.3294271" />
+      <window_info anchor="right" x="1069" y="82" width="285" height="729" id="Database" order="4" weight="0.15013404" />
+      <window_info anchor="right" x="0" y="0" width="337" height="638" id="Documentation" order="5" side_tool="true" weight="0.3294271" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/PycharmProjects$server.coverage" NAME="server Coverage Results" MODIFIED="1555060644447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ocr" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$test.coverage" NAME="test Coverage Results" MODIFIED="1553846057256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chat_room" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/roi/flower_photos/daisy/7.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/roi/flower_photos/daisy/9.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/roi/flower_photos/daisy/11.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/roi/flower_photos/daisy/12.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/roi/flower_photos/daisy/1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/roi/flower_photos/daisy/6.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ocr/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="54" column="32" lean-forward="true" selection-start-line="54" selection-start-column="32" selection-end-line="54" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tornado_project_module/config.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tornado_project_module/views/index.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ocr/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flower_recognition/image/predict.png" />
+    <entry file="file://$PROJECT_DIR$/ocr/image/test.png" />
+    <entry file="file://$PROJECT_DIR$/ocr/image/predict.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ocr/views/index.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="25" column="27" lean-forward="true" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
+          <folding>
+            <element signature="e#39#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flower_recognition/data_process.py" />
+    <entry file="file://C:/Python/Python37/Lib/site-packages/tensorflow/python/lib/io/file_io.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="84" selection-start-line="84" selection-end-line="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python/Python37/Lib/site-packages/requests/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="90" selection-start-line="90" selection-end-line="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inception_v3/train1.py" />
+    <entry file="file://$PROJECT_DIR$/inception_v3/test1.py" />
+    <entry file="file://$PROJECT_DIR$/inception_v3/data_process.py" />
+    <entry file="file://$PROJECT_DIR$/inception_v3/inceptionV3/predict_images/test.jpg" />
+    <entry file="file://$PROJECT_DIR$/roi/flower_photos/daisy/one.jpg" />
+    <entry file="file://$PROJECT_DIR$/roi/resize.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="72" column="24" selection-start-line="72" selection-start-column="24" selection-end-line="72" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/roi/data_process.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="32" column="26" lean-forward="true" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inception_v3/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flower_recognition/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flower_recognition/image.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" column="40" lean-forward="true" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flower_recognition/static/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ocr/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ocr/static/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="54" lean-forward="true" selection-start-line="1" selection-start-column="54" selection-end-line="1" selection-end-column="54" />
+          <folding>
+            <element signature="e#222#832#0" />
+            <element signature="e#838#2833#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inception_v3/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6140">
+          <caret line="307" column="49" lean-forward="true" selection-start-line="307" selection-start-column="49" selection-end-line="307" selection-end-column="49" />
+          <folding>
+            <element signature="e#59#70#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lenet_5/test.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chat_room/views/index.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="99" column="21" lean-forward="true" selection-start-line="99" selection-start-column="21" selection-end-line="99" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chat_room/static/js/chat_room.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="22" column="33" lean-forward="true" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chat_room/database.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chat_room/server.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chat_room/application.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serl/connection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serl/consumer_v2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-121">
+          <caret line="3" column="17" lean-forward="true" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+          <folding>
+            <element signature="e#21#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serl/consumer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-304">
+          <caret line="9" column="38" lean-forward="true" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+          <folding>
+            <element signature="e#21#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serl_gui/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="72" column="35" selection-start-line="72" selection-start-column="35" selection-end-line="72" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serl_gui/consumer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1420">
+          <caret line="73" column="25" selection-start-line="73" selection-start-column="25" selection-end-line="73" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lenet_5/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="26" column="52" lean-forward="true" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flower_recognition/predict.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flower_recognition/views/index.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#40#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flower_recognition/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flower_recognition/image/test.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flower_recognition/static/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="32" column="41" lean-forward="true" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
+          <folding>
+            <element signature="n#!!block;n#showCanvas#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flower_recognition/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#62#83#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flower_recognition/application.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+          <folding>
+            <element signature="e#64#82#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

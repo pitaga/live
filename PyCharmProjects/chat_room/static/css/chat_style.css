@@ -1,0 +1,116 @@
+/*聊天室网页顶层容器*/
+.chat_page {
+    /*以下控制垂直位置垂直宽度*/
+    top: 10%;
+    height: 80%;
+    /*以下控制水平位置和水平宽度*/
+    left: 15%;
+    width: 70%;
+    /*以下控制边框*/
+    border: 5px solid black;
+    /*以下控制位置*/
+    position: fixed;
+    /*控制子div不溢出*/
+    overflow: hidden;
+}
+
+
+/*左侧聊天室列表的顶层容器*/
+.chat_room_panel {
+    top: 0;
+    height: 100%;
+    left: 0;
+    width: 30%;
+    border-right: 5px solid black;
+    position: relative;
+    text-align: center;
+    float: left;
+}
+/*左侧聊天室标签字样格式*/
+.chat_label {
+    float: top;
+    height: 2%;
+    width: 100%;
+    position: relative;
+    font-size: 25px;
+    color: black;
+}
+/*聊天室所在的列表*/
+.chat_room {
+    top: 2%;
+    height: 98%;
+    left: 0;
+    width: 100%;
+    border-top: 5px solid black;
+    position: relative;
+    overflow-y: auto;
+}
+/*创建聊天室按钮*/
+.create_room {
+    height: auto;
+    width: 100%;
+    font-size: 25px;
+}
+/*默认聊天室按钮*/
+.room_default {
+    height: auto;
+    width: 100%;
+    font-size: 25px;
+}
+
+
+/*聊天记录顶层容器*/
+.chat_log_panel {
+    top: 0;
+    width: 69.5%;
+    height: 100%;
+    float: right;
+    text-align: center;
+    position: relative;
+}
+/*右侧聊天记录的标签，及聊天室名字*/
+.chat_log_label {
+    top: 0;
+    width: 100%;
+    height: 2%;
+    font-size: 25px;
+    color: black;
+    position: relative;
+}
+/*聊天记录*/
+.chat_log {
+    top: 2%;
+    width: 100%;
+    height: 85%;
+    border-top: 5px solid black;
+    /*纵向超出内容出现滚条*/
+    overflow-y: auto;
+    position: relative;
+}
+/*消息发送框及消息发送按钮容器*/
+.send_chat_log {
+    height: auto;
+    width: 100%;
+    border-top: 5px solid black;
+    position: relative;
+}
+/*消息发送框容器*/
+.chat_content {
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: 100%;
+    font-size: 18px;
+    float: left;
+    position: relative;
+}
+/*发送按钮*/
+.send_button {
+    top: 0;
+    right: 0;
+    width: 19.4%;
+    height: 100%;
+    font-size: 25px;
+    float: right;
+    position: relative;
+}
