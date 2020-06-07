@@ -1,0 +1,43 @@
+<!DOCTYPE html> 
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<head> 
+	<title>苏大内幕组直播</title>
+	<link rel="stylesheet" href="./css/video-js.css">
+	<script type="text/javascript" src="./js/jquery.js"></script>
+	<script type="text/javascript" src="./js/video.js"></script>
+	<script type="text/javascript" src="./js/videojs-flash.js"></script>
+</head> 
+   
+   
+<body>
+	<video id="myLive" class="video-js vjs-default-skin" controls preload="auto" width="600" height="400">
+		<source src="rtmp://175.24.67.26:1935/live/test" type="rtmp/flv">
+	</video>
+	<script>
+		//设置本地flash插件地址
+		videojs.options.flash.swf = "./js/video-js.swf";
+		// 初始化视频，设为全局变量
+		var myPlayer = videojs('myLive', {
+		    autoplay: true,
+		    controls: true,//控制条
+		    techOrder: ["flash"],//设置flash播放
+		    muted: true,// 静音
+		    preload: "auto",// 预加载
+		    language: "zh-CN",// 初始化语言
+		    playbackRates: [1, 2, 3, 4, 5, 8, 10, 20]// 播放速度
+		}, function () {
+		    console.log("--------------成功初始化视频--------------");
+		    myPlayer.one("playing", function () {         // 监听播放
+		        console.log("开始播放");
+		    });
+		    myPlayer.one("error", function (error) {      // 监听错误
+		        console.error("监听到异常，错误信息：%o",error);
+		    });
+		});
+    </script>
+    <script type="text/javascript" src="./js/jquery.js"></script>
+	<script type="text/javascript" src="./js/video.js"></script>
+	<script type="text/javascript" src="./js/videojs-flash.js"></script>
+</body> 
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html> 
+<html lang="zh">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<head> 
+	<title>苏大内幕组直播-观众</title>
+	<link rel="stylesheet" href="./static/css/video-js.css">
+	<link rel="stylesheet" href="./static/css/audience.css">
+	<script type="text/javascript" src="./static/js/jquery.js"></script>
+	<script type="text/javascript" src="./static/js/video.js"></script>
+	<script type="text/javascript" src="./static/js/videojs-flash.js"></script>
+</head> 
+
+
+<body>
+	<div class="top_panel">
+        <!--拉流-->
+        <div class="myVideo">
+            <video id="myLive" class="video-js vjs-default-skin"
+                   style="width: 100%; height: 100%; position: relative;"
+                   controls preload="auto">
+                <source src="rtmp://175.24.67.26:1935/live/test" type="rtmp/flv">
+            </video>
+        </div>
+
+        <div class="myRight">
+            <!--聊天室-->
+            <div class="chat_log_panel">
+                <label class="chat_log_label">聊天记录</label>
+                <div class="chat_log" id="chat_log">
+
+                </div>
+                <div class="send_chat_log">
+                    <input class="chat_content" id="chat_content" type="text">
+                    <button class="send_button" onclick="sendMessage()">发送</button>
+                </div>
+            </div>
+        </div>
+	</div>
+
+    <script type="text/javascript" src="./static/js/audience.js"></script>
+</body>
+</html>

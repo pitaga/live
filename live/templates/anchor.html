@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="zh">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<head>
+	<title>苏大内幕组直播-主播</title>
+	<link rel="stylesheet" href="./static/css/video-js.css">
+	<link rel="stylesheet" href="./static/css/canvas.css">
+    <link rel="stylesheet" href="./static/css/anchor.css">
+	<script type="text/javascript" src="./static/js/jquery.js"></script>
+	<script type="text/javascript" src="./static/js/video.js"></script>
+	<script type="text/javascript" src="./static/js/videojs-flash.js"></script>
+    <script type="text/javascript" src="./static/js/qwebchannel.js"></script>
+</head>
+
+
+<body>
+    <div class="top_panel">
+        <!--拉流-->
+        <div class="myVideo">
+            <video id="myLive" class="video-js vjs-default-skin"
+                   style="width: 100%; height: 100%; position: relative;"
+                   controls preload="auto">
+                <source src="rtmp://175.24.67.26:1935/live/test" type="rtmp/flv">
+            </video>
+        </div>
+
+        <div class="myRight">
+            <!--推流-->
+            <div class="myPushStream">
+                <select id="select_command" class="select_command">
+                    <option value="100">视频</option>
+                    <option value="010">音频</option>
+                    <option value="001">屏幕分享</option>
+                    <option value="110">视频+音频</option>
+                    <option value="011">屏幕+音频</option>
+                </select>
+                <button class="pushButton" onclick="sendCommand()">开始推流</button>
+            </div>
+
+            <!--聊天室-->
+            <div class="chat_log_panel">
+                <label class="chat_log_label">聊天记录</label>
+                <div class="chat_log" id="chat_log">
+
+                </div>
+                <div class="send_chat_log">
+                    <input class="chat_content" id="chat_content" type="text">
+                    <button class="send_button" onclick="sendMessage()">发送</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--白板演示-->
+    <div style="text-align: center;">
+        <canvas id="canvas" style="border: 2px solid black;" ></canvas>
+        <div id="responseText"></div>
+        粗细:
+        <select id="selWidth" onchange="checkpen(this.value)">
+            <option value="1" selected="selected">1</option>
+            <option value="5">5</option>
+            <option value="10">10</option>
+            <option value="15">15</option>
+            <option value="20">20</option>
+        </select>
+        颜色:
+        <select id="selColor" onchange="changecolor(this.value)">
+            <option value="black" selected="selected">black</option>
+            <option value="blue">blue</option>
+            <option value="red">red</option>
+            <option value="green">green</option>
+            <option value="yellow">yellow</option>
+            <option value="gray">gray</option>
+        </select>
+        形状:
+        <select id="selFigure" onchange="figure(this.value)">
+            <option value="none">无</option>
+            <option value="line">直线</option>
+            <option value="rect">矩形</option>
+            <option value="triangle">三角</option>
+            <option value="circle">圆形</option>
+            <option value="ellipse">椭圆</option>
+        </select>
+        填充:
+        <input type="checkbox" id="filling" onclick="fill()" />
+        <input type="button" value="画笔" id="paint" onclick="paint()" />
+        <input type="button" value="橡皮擦" class="eraser btn" id="eraser" onclick="checkeraser()" />
+        <input type="button" value="撤销" id="backstep" onclick="backstep()" />
+        <button onclick="clearcanvas()">清空画板</button>
+    </div>
+
+    <script type="text/javascript" src="./static/js/canvas.js"></script>
+    <script type="text/javascript" src="./static/js/anchor.js"></script>
+</body>
+</html>
